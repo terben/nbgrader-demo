@@ -1,6 +1,6 @@
 # nbgrader demo
 
-[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/jhamrick/nbgrader-demo)
+[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/terben/nbgrader-demo)
 
 ## Resources
 
