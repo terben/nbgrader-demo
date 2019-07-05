@@ -5,7 +5,9 @@ MAINTAINER Jessica B. Hamrick <jhamrick@berkeley.edu>
 # Install nbgrader
 #RUN pip install --upgrade jupyter_core jupyter_client
 RUN conda update jupyter_core jupyter_client
-RUN pip install git+git://github.com/jupyter/nbgrader.git
+#RUN pip install git+git://github.com/jupyter/nbgrader.git
+RUN conda install -c conda-forge nbgrader
+RUN conda update --all
 
 # Install notebook config
 ADD jupyter_notebook_config.py /home/main/.jupyter/jupyter_notebook_config.py
